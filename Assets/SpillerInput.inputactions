@@ -1,0 +1,127 @@
+{
+    "version": 1,
+    "name": "SpillerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "2f1ed36d-a373-4d09-8b36-808c1b347e11",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "20e391c5-3901-4e6f-946b-8ea3c57f30f9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "e2879ac7-5bac-4afa-9b2a-0f1f152a35d6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "5541af35-8f83-48d8-8400-6d8e6d387909",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "ec25e96d-a378-4735-b37d-452742d10a27",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "2d1d5143-d053-46c8-beab-3889cc8d0128",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "0f323cff-0297-4e95-8742-7538fd6337f6",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f845245f-1e16-4c09-b0cb-852c585b33b0",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "b6840f5f-3508-4c3c-b109-2109221b4483",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "9d716ea1-eb7c-47f5-a121-08f53defd8a9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5213cb41-1aaf-470f-870d-defa58127fb5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ea5ee0fd-40e1-4af9-ae6e-0722f08856f2",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
